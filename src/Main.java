@@ -14,7 +14,6 @@ public class Main {
         System.out.println(cookies);
 
         System.out.println("Process has been finished");
-
         //Первая задача
         var dog = 8.0;
         System.out.println(dog);
