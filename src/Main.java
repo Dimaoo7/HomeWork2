@@ -1,94 +1,136 @@
-import java.net.SocketOption;
-
 public class Main {
 
     public static void main(String[] args) {
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+        task6();
+        task7();
+        task8();
+    }
 
-        var cookies = 10;
-        System.out.println(cookies);
-
-        cookies = cookies + 3;
-        System.out.println(cookies);
-
-        cookies = cookies * 5;
-        System.out.println(cookies);
-
-        System.out.println("Process has been finished");
         //Первая задача
-        var dog = 8.0;
-        System.out.println(dog);
+        public static void task1 () {
 
-        var cat = 3.6;
-        System.out.println(cat);
+            System.out.println("Задача 1");
+            float dog = 8.0F;
+            System.out.println(dog);
 
-        var paper = 763789;
-        System.out.println(paper);
+            float cat = 3.6F;
+            System.out.println(cat);
+
+            int paper = 763789;
+            System.out.println(paper);
+        }
 
         //Второя задача
 
-        dog = dog + 4;
-        System.out.println(dog);
+        public static void task2 () {
 
-        cat = cat + 4;
-        System.out.println(cat);
+            System.out.println("Задача 2");
+            float dog = 8.0F;
+            dog = dog + 4;
+            System.out.println(dog);
 
-        paper = paper + 4;
-        System.out.println(paper);
+            float cat = 3.6F;
+            cat = cat + 4;
+            System.out.println(cat);
+
+            int paper = 763789;
+            paper = paper + 4;
+            System.out.println(paper);
+        }
 
         // Третья задача
 
-        dog = dog - 3.5;
-        System.out.println(dog);
+        public static void task3 () {
 
-        cat = cat - 1.6;
-        System.out.println(cat);
+            System.out.println("Задача 3");
+            float dog = 8.0F;
+            dog = dog - 3.5F;
+            System.out.println(dog);
 
-        paper = paper - 7639;
-        System.out.println(paper);
+            float cat = 3.6F;
+            cat = cat - 1.6F;
+            System.out.println(cat);
+
+            int paper = 7637890;
+            paper = paper - 7639;
+            System.out.println(paper);
+        }
+
 
         //Четвертая задача
 
-        var friend = 19;
-        System.out.println(friend);
+        public static void task4 () {
 
-        friend = friend + 2;
-        System.out.println(friend);
+            System.out.println("Задача 4");
+            float friend = 19;
+            System.out.println(friend);
 
-        friend = friend / 7;
-        System.out.println(friend);
+            friend = friend + 2;
+            System.out.println(friend);
+
+            friend = friend / 7;
+            System.out.println(friend);
+        }
 
         //Пятая задача
 
-        var frog = 3.5;
-        System.out.println(frog);
+        public static void task5 () {
 
-        frog = frog * 10;
-        System.out.println(frog);
+            System.out.println("Задача 5");
+            float frog = 3.5F;
+            System.out.println(frog);
 
-        frog = frog / 3.5;
-        System.out.println(frog);
+            frog = frog * 10;
+            System.out.println(frog);
 
-        frog = frog + 4;
-        System.out.println(frog);
+            frog = frog / 3.5F;
+            System.out.println(frog);
+
+            frog = frog + 4;
+            System.out.println(frog);
+        }
 
         //Шестая задача
 
-        var firstBoxer = 78.2;
+        public static void task6 () {
 
-        var secondBoxer = 82.7;
-        System.out.println(firstBoxer + secondBoxer);
+            System.out.println("Задача 6");
+            float firstBoxer = 78.2F;
 
-        var difference = secondBoxer - firstBoxer;
+            float secondBoxer = 82.7F;
+            System.out.println(firstBoxer + secondBoxer);
+
+            float difference = secondBoxer - firstBoxer;
+            System.out.println(difference); // Не хотел ее печатать но интел сказал,нада ее использовать!!
+        }
 
         // Седьмая задача
 
-        difference = secondBoxer % firstBoxer;
-        System.out.println(difference);
+        public static void task7 () {
+
+            System.out.println("Задача 7");
+            float secondBoxer = 82.7F;
+
+            float firstBoxer = 78.2F;
+
+            float difference = secondBoxer % firstBoxer;
+
+            System.out.println(difference);
+        }
 
         // Восьмая задача
 
-        var hoursOfWork = 640;
-        var everyEmployee = 8;
+        public static void task8 () {
+            System.out.println("Задача 8");
+
+
+        short hoursOfWork = 640;
+        byte everyEmployee = 8;
 
         var people = hoursOfWork / everyEmployee;
 
@@ -96,9 +138,15 @@ public class Main {
 
         people = people + 94;
 
-        var sumOfWork = people * everyEmployee;
+        int sumOfWork = people * everyEmployee;
 
         System.out.println("Если в компании работает: " + people + " человека, то всего: " + sumOfWork + " часов работы может быть поделено между сотрудниками");
+        }
 
-    }
+
+
+
 }
+
+
+
